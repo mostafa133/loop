@@ -1,0 +1,9 @@
+
+numbers = [4,9,5,8,2,3,6,999]
+
+sum = 0
+for number in numbers:
+    sum = sum + number
+    print(f'{number} current sum = {sum}')
+    if sum > 100 :
+        break
